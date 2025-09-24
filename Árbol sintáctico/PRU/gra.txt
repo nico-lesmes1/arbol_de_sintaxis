@@ -1,0 +1,7 @@
+E -> E opsuma T
+E -> T
+T -> T opmul F
+T -> F
+F -> id
+F -> ( E )
+F -> num
